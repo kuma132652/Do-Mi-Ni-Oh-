@@ -2,27 +2,34 @@
 <html>
   <head>
     <link rel="stylesheet" href="/css/test2.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <meta charset="utf-8">
-    <title>webgame</title>
+    <title>Do-Mi-Ni-Oh!</title>
   </head>
   <body>
     <div class="wrapper">
         <img src="images/logo.png" class="logo">
-        <button class="btn return" onclick="location.href='/'">Return</button>
+        <a href="/test3" class="btn btn--circle btn--circle-d btn--shadow left"><i class="fas fa-arrow-left"></i></a>
+        <a href="/" class="btn btn--circle btn--circle-c btn--shadow"><i class="fas fa-arrow-up"></i></a>
         <h1 class="pagetitle wait">Wating for players...</h1>
         <div class="container">
-            <div class="up black">Room Name</div>
-            <div class="up area room">"ルームネーム"</div>
-            <div class="down black">Max Players</div>
-            <div class="down area room">"プレイヤー数"</div>
-        </div>
-
-        <div class="player lists">
+          <div class="name">
+            <div class="name black">Room Name</div>
+            <div class="name area">"ルームネーム"</div>
+          </div>
+          <div class="player">
+            <div class="player black">Max Players</div>
+            <div class="player area">"プレイヤー数"</div>
+          </div>
+          <div class="lists">
             <div class="list1">"プレイヤー１"</div>
             <div class="list2">"プレイヤー２"</div>
             <div class="list3">"プレイヤー３"</div>
             <div class="list4">"プレイヤー４"</div>
+          </div>
         </div>
+
+        
 
         <button class="btn start">Start Battle</button>
     </div>

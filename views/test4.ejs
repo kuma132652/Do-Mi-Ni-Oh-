@@ -2,19 +2,25 @@
 <html>
   <head>
     <link rel="stylesheet" href="/css/test2.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <meta charset="utf-8">
-    <title>webgame</title>
+    <title>Do-Mi-Ni-Oh!</title>
   </head>
   <body>
     <div class="wrapper">
         <img src="images/logo.png" class="logo">
-        <button class="btn return" onclick="location.href='/'">Return</button>
+        <a href="/test3" class="btn btn--circle btn--circle-d btn--shadow left"><i class="fas fa-arrow-left"></i></a>
+        <a href="/" class="btn btn--circle btn--circle-c btn--shadow"><i class="fas fa-arrow-up"></i></a>
         <h1 class="pagetitle">Room making</h1>
         <div class="container">
-            <div class="up black">Room Name</div>
-            <input type="text" class="room up white">
-            <div class="down black">Max Players</div>
-            <input type="number" value="1" min="1" max="4" step="1" class="room down white">
+          <div class="name">
+            <div class="black name">Room Name</div>
+            <input type="text" class="white name">
+          </div>
+          <div class="player">
+            <div class="black player">Max Players</div>
+            <input type="number" value="1" min="1" max="4" step="1" class="player white">
+          </div>
             <button class="btn make"  onclick="location.href='/test6'">Make Room</button>
         </div>
 
